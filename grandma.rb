@@ -14,7 +14,7 @@
 
 def speak_to_grandma(phrase)
   if 
- "#{phrase.upcase}"
+ "#{phrase.upcase}" == "#{phrase}"
    puts "NO, NOT SINCE 1938!"
 
 elsif 
