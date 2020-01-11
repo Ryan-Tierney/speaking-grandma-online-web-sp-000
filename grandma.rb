@@ -14,7 +14,8 @@
 
 def speak_to_grandma(phrase)
   if 
-    
+     "#{phrase.upcase}" == "I LOVE YOU GRANDMA!"
+   return "I LOVE YOU TOO PUMPKIN!"
  "#{phrase.upcase}" == "#{phrase}"
   return "NO, NOT SINCE 1938!"
 
